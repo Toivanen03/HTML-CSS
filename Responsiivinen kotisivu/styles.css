@@ -61,4 +61,13 @@
         margin-left: auto;
         margin-right: auto;
         width: 80%;
-      }
+    }
+    #topright {
+    position: relative;
+    }
+    .github {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    }
+      
