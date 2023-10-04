@@ -1,6 +1,6 @@
     body {
-    background-color: rgba(243, 238, 238, 0.932);
-    background-size: cover;
+        background-color: rgba(243, 238, 238, 0.932);
+        background-size: cover;
     }      
     h1 {
         text-align: left;
@@ -53,7 +53,7 @@
     }
     td {
         vertical-align: bottom;
-        text-align: justify;
+        text-align: left;
         padding-left: 50px;
     }
     .palkki {
@@ -63,11 +63,73 @@
         width: 80%;
     }
     #topright {
-    position: relative;
+        position: relative;
     }
     .github {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+        position: absolute;
+        top: 2%;
+        right: 2%;
     }
-      
+@media screen and (max-width: 600px) {
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+    h1 {
+        text-align: left;
+        text-decoration: underline;
+        margin-left: 3%;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+    }
+    h2 {
+        margin-left:4%;
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+    }
+    h3 {
+        margin-left:5%;
+        color: rgb(0, 0, 0);
+        font-size: 19px;
+    }
+    h4 {
+        margin-left:6%;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+    }
+    #topright {
+        position: relative;
+        }
+    .github {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    th {
+        vertical-align: bottom;
+        text-align: left;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-bottom: 0px;
+    }
+    td {
+        vertical-align: bottom;
+        text-align: left;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    ul {
+        padding-left: 0px;
+    }
+    li {
+        width: 100%;
+        padding-left: 1px;
+    }
+}
